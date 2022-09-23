@@ -6,15 +6,17 @@
 #### Ход работы:
 
 <img src="Main.png" alt="video demo"/>
-
+#### Окно №1
 <img src="Screen1.png" alt="video demo1"/>
 
 <img src="Screen1View.png" alt="video demo2"/>
 
+#### Окно №2
 <img src="Screen2.png" alt="video demo3"/>
 
 <img src="Screen2View.png" alt="video demo4"/>
 
+#### Окно №3
 <img src="Screen3.png" alt="video demo5"/>
 
 <img src="Screen3View.png" alt="video demo6"/>
