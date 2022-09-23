@@ -1,10 +1,17 @@
 # Практическая работа №1
-## Тема: Создание красивого repository для GitHub (Это просто пример)
+## Тема: Разработка макета.
 
-#### Цель работы:
+#### Цель работы: сделать 3 макета оценка - 5,
+2 макета оценка - 4,
+1 макет оценка - 3.
 
 #### Ход работы:
+<img src="Main.gif" alt="video demo"/>
+<img src="Screen1.gif" alt="video demo"/>
+<img src="Screen1View.gif" alt="video demo"/>
+<img src="Screen2.gif" alt="video demo"/>
+<img src="Screen2View.gif" alt="video demo"/>
+<img src="Screen3.gif" alt="video demo"/>
+<img src="Screen3View.gif" alt="video demo"/>
 
-![Как вставить картинку!](https://github.com/PDA2304/Flutter/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202022-09-11%20200347.png "San Juan Mountains")
-
-#### Вывод:
+#### Вывод: в данной практической работе были разработаны 3 окна по примеру из макета
