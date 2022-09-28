@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_4/screen3.dart';
+import 'package:flutter_application_4/Wellcome.dart';
 
 void main() {
   runApp(const App());
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
       return MaterialApp(
         title: '01', 
-        home: const Screen(),
+        home: const Wellcome(),
       );
   }
 }
