@@ -1,36 +1,64 @@
-# Практическая работа №1
-## Тема: Разработка макета.
+# Практическая работа №2
 
-#### Цель работы: сделать 3 макета оценка - 5, 2 макета оценка - 4, 1 макет оценка - 3.
+### Тема: Реализация классов, отвечающих за работу базы данных
 
-#### Ход работы:
+### Цель работы: научиться реализовывать классы и модели.
 
-<img src="Main.png" alt="video demo"/>
+### Ход работы:
 
-#### Данны код в классе main нужен для отображения верстки в классах Wellcom, Meditate, iPhone13mini.
+### Для начала работы с базой данных необходимо создать даталогическую модель базы данных.
 
-#### Окно №1
+<img src="ErWin.png" alt="video demo"/>
 
-<img src="Screen1.png" alt="video demo1"/>
+### Необходимо скачать библиотеки, которые нужны в работе с базой данных.
 
-<img src="Screen1View.png" alt="video demo2"/>
+<img src="dependency.png" alt="video demo"/>
 
-#### В классе Meditate я использовала контейнер 500 на 930 белого цвета для фона, также использовала контейнер с текстом "Meditate" с шрифтом plusJakartSans. Также использовала IconButton для кнопки с изображением лупы. Все остальное было проделано по такому же принципу.
+### В папке common создадим файл data_base_request.dart.
 
-#### Окно №2
+<img src="Request.png" alt="video demo"/>
 
-<img src="Screen2.png" alt="video demo3"/>
+### В папке model создадим модели базы данных:
 
-<img src="Screen2View.png" alt="video demo4"/>
+<img src="modelParty.png" alt="video demo"/>
 
-#### В классе Wellcome также я использовала контейнера для фона с цветом по RGB (3, 158, 162), также для кнопок был использован элемент TextButton в контенере с размером 200 на 45, и так три кнопки. Картинку я экспортировала с сайта Figma в макете и вставила ее при помощи Image(image: AssetImage(''),).
+### Девять моделей:
 
-#### Окно №3
+<img src="models.png" alt="video demo"/>
 
-<img src="Screen3.png" alt="video demo5"/>
+### В папке entity создаем сущности:
 
-<img src="Screen3View.png" alt="video demo6"/>
+<img src="partyEntity.png" alt="video demo"/>
 
-#### В классе iPhone13mini также я использовала контейнера для верхнего фона с цветом light blue, также экспортировала картинку с сайта Figma в нашем макете и наложила картинку на синий фон. Также для кнопок был использован элемент IconButton и TextButton в контенере.
+###  Девять сущностей:
 
-#### Вывод: в данной практической работе были разработаны 3 окна по примеру из макета
+<img src="entity.png" alt="video demo"/>
+
+### В папках db создадим файл data_base_helper.dart. 
+### В этом файле будут хранится функции добавления, удаления, обновления базы.
+
+### - init - инициализация базы данных для всех платформ
+
+<img src="init.png" alt="video demo"/>
+
+### - onUpdateTable - обновление таблиц
+
+<img src="update.png" alt="video demo"/>
+
+### - onCreateTable - создание таблиц 
+
+<img src="create.png" alt="video demo"/>
+
+### - onInitTable - заполнение таблиц данными
+
+<img src="inittable.png" alt="video demo"/>
+
+### - onDropDataBase - удаление базы данных 
+
+<img src="delete.png" alt="video demo"/>
+
+### Демонстрация базы данных:
+
+<img src="viewBD.png" alt="video demo"/>
+
+### Вывод: в данной практической работе были реализованы классы и модели, отвечающие за работу базы данных для склада.
