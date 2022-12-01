@@ -1,36 +1,65 @@
-# Практическая работа №1
-## Тема: Разработка макета.
+# ПРАКТИЧЕСКАЯ РАБОТА №3
 
-#### Цель работы: сделать 3 макета оценка - 5, 2 макета оценка - 4, 1 макет оценка - 3.
+### Реализация регистрации и авторизации пользователя
 
-#### Ход работы:
+### Цель работы: реализовать регистрацию и авторизацию пользователя.
 
-<img src="Main.png" alt="video demo"/>
+### Ход работы:
 
-#### Данны код в классе main нужен для отображения верстки в классах Wellcom, Meditate, iPhone13mini.
+### Для начала работы с авторизацией и регистрации необходимо скачать следующие библиотеки:
 
-#### Окно №1
+<img src="dependencys.png" alt="video demo"/>
 
-<img src="Screen1.png" alt="video demo1"/>
+### Рисунок 1 - библиотеки
 
-<img src="Screen1View.png" alt="video demo2"/>
+### В папке core создаем папку usercase, здесь создаем файл auth
 
-#### В классе Meditate я использовала контейнер 500 на 930 белого цвета для фона, также использовала контейнер с текстом "Meditate" с шрифтом plusJakartSans. Также использовала IconButton для кнопки с изображением лупы. Все остальное было проделано по такому же принципу.
+ <img src="Screenshot_1.png" alt="video demo"/>
+ 
+### Рисунок 2 - auth.dart
 
-#### Окно №2
+### В папке data создаем папку repository, здесь файл auth_repositories_impl
 
-<img src="Screen2.png" alt="video demo3"/>
+ <img src="Screenshot_2.png" alt="video demo"/>
+ 
+### Рисунок 3 - auth_repositories_impl.dart
 
-<img src="Screen2View.png" alt="video demo4"/>
+### Далее необходимо изменить role_entity:
 
-#### В классе Wellcome также я использовала контейнера для фона с цветом по RGB (3, 158, 162), также для кнопок был использован элемент TextButton в контенере с размером 200 на 45, и так три кнопки. Картинку я экспортировала с сайта Figma в макете и вставила ее при помощи Image(image: AssetImage(''),).
+ <img src="Screenshot_3.png" alt="video demo"/>
+ 
+### Рисунок 4 - role_entity.dart
 
-#### Окно №3
+### В папке entity создаем папку usercases, здесь файл auth
 
-<img src="Screen3.png" alt="video demo5"/>
+ <img src="Screenshot_4.png" alt="video demo"/>
+ 
+### Рисунок 5 - auth.dart
 
-<img src="Screen3View.png" alt="video demo6"/>
+### Далее создаем папку screens, в ней файлы, в которых будет верстка авторизации, регистрации и окон для админа с пользователем.
 
-#### В классе iPhone13mini также я использовала контейнера для верхнего фона с цветом light blue, также экспортировала картинку с сайта Figma в нашем макете и наложила картинку на синий фон. Также для кнопок был использован элемент IconButton и TextButton в контенере.
+ <img src="Screenshot_5.png" alt="video demo"/>
+ 
+### Рисунок 6 – screens
 
-#### Вывод: в данной практической работе были разработаны 3 окна по примеру из макета
+ <img src="Screenshot_6.png" alt="video demo"/>
+ 
+### Рисунок 7 - окно регистрации с валидацией
+
+ <img src="Screenshot_7.png" alt="video demo"/>
+ 
+### Рисунок 8 - окно авторизации с валидацией
+
+ <img src="Screenshot_8.png" alt="video demo"/>
+ 
+### Рисунок 9 - окно админа
+
+<img src="Screenshot_9.png" alt="video demo"/>
+
+### Рисунок 10 - окно пользователя
+
+<img src="Screenshot_10.png" alt="video demo"/>
+
+### Рисунок 12 - пользователи в бд
+ 
+### Вывод: в ходе данной практической работы была сделана авторизация и регистрация для пользователей.
