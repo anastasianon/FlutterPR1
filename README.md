@@ -14,24 +14,8 @@
 
 #### Ход работы:
 
-#### Увеличение на 1
+#### Демонстрация работы, Подробное описание практической работы можно увидеть в отчете, который загружен в ClassRoom
 
-<img src="Screenshot_1.png" alt="video demo1"/>
-
-#### Уменьшение на 1
-
-<img src="Screenshot_2.png" alt="video demo2"/>
-
-#### Темная тема и увеличение на 2
-
-<img src="Screenshot_3.png" alt="video demo3"/>
-
-#### Уменьшение на 2
-
-<img src="Screenshot_4.png" alt="video demo4"/>
-
-#### Светлая тема
-
-<img src="Screenshot_5.png" alt="video demo4"/>
+<img src="demo.png" alt="video"/>
 
 #### Вывод: в данной практической работе был разработан проект с использованием Cubit.
